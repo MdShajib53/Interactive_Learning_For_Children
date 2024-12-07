@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo or Icon -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/signup_logo"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up to get started"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Name Input Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpNameEditTextId"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:background="@drawable/rounded_input_bg"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Email Input Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpEmailEditTextId"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:background="@drawable/rounded_input_bg"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Password Input Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpPasswordEditTextId"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:background="@drawable/rounded_input_bg"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Confirm Password Input Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpConfirmPasswordEditTextId"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:background="@drawable/rounded_input_bg"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Sign Up Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpButtonId"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:padding="15dp" />
+
+        <!-- Already Registered? -->
+        <TextView
+            android:id="@+id/signInTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Sign In"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:gravity="center" />
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbarId"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

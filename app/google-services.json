@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836841653960",
+    "project_id": "interactive-learning-for-kids",
+    "storage_bucket": "interactive-learning-for-kids.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836841653960:android:09749de9d5dbcaa3b947fd",
+        "android_client_info": {
+          "package_name": "com.shajib.interactivelearningforkids"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_m2GCPEGkQxVSGGPYGABDiY8UYAiyHUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backFromNumbersActivity"
+                android:layout_width="35dp"
+                android:layout_height="70dp"
+                android:background="@drawable/topbg"
+                android:paddingLeft="10dp"
+                android:src="@drawable/back_button" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Numbers"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@drawable/topbg"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Row 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/one"
+                        android:contentDescription="Pick One"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="One"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#EF6262"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/two"
+                        android:contentDescription="Pick Two"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Two"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#FF9A00"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/three"
+                        android:contentDescription="Pick Three"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Three"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#EF6262"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/four"
+                        android:contentDescription="Pick Four"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Four"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#FF9A00"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 5 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/five"
+                        android:contentDescription="Pick Five"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Five"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#EF6262"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 6 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/six"
+                        android:contentDescription="Pick Six"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Six"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#FF9A00"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 7 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/seven"
+                        android:contentDescription="Pick Seven"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Seven"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#EF6262"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_seven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 8 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/eight"
+                        android:contentDescription="Pick Eight"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Eight"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#FF9A00"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_eight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 9 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/nine"
+                        android:contentDescription="Pick Nine"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nine"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#EF6262"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_nine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+                <!-- Row 10 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ten"
+                        android:contentDescription="Pick Ten"/>
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ten"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="#FF9A00"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/button_ten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sound"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

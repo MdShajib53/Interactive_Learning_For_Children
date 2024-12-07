@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_signin"
+        android:title="SingIn" />
+    <item
+        android:id="@+id/nav_signup"
+        android:title="SingUp" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit"/>
+</menu>

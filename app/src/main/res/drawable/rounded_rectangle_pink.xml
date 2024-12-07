@@ -1,0 +1,6 @@
+<!-- rounded_rectangle_pink.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFC0CB"/> <!-- Pink color -->
+    <corners android:radius="20dp"/> <!-- Rounded corners with a radius of 20dp -->
+</shape>

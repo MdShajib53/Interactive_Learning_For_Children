@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3">
+
+    <!-- Container for Back Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:background="#1976D2">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/backFromFullImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_button"
+            android:contentDescription="Back Button" />
+    </LinearLayout>
+
+    <!-- Container for ImageView with 80% height -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#FFFFFF">
+
+        <!-- Full ImageView -->
+        <ImageView
+            android:id="@+id/imageViewFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <!-- Container for navigation buttons with 20% height -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#1976D2">
+
+        <!-- More Button -->
+        <Button
+            android:id="@+id/buttonMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More.."
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <!-- Container for Previous and Next Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="10dp">
+
+            <!-- Previous Button -->
+            <Button
+                android:id="@+id/buttonPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_button"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginEnd="55dp"/> <!-- Increased space -->
+
+            <!-- Next Button -->
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_button"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginStart="55dp"/> <!-- Increased space -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
